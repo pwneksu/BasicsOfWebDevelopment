@@ -1,0 +1,21 @@
+/*
+Author: Vertti K
+Date: 2025-09-22
+*/
+body {
+  background: #1e1e2e;
+  color: #cdd6f4;
+}
+
+h1 {
+  color: #cba6f7;
+  font-size: 1.8rem;
+}
+
+p {
+  color: #cdd6f4;
+}
+
+a {
+  color: #89b4fa;
+}
