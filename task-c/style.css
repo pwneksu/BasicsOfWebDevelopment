@@ -1,0 +1,243 @@
+/*
+Author: Vertti K
+Date: 2025-09-26
+*/
+
+/* Claude AI Modified Gruvbox Theme (https://github.com/YV31/gruvbox-css) */
+:root {
+  --bg_h: #1a1b26;        /* Darkest - deeper than #333446 */
+  --bg:   #24283b;        /* Dark base */
+  --bg_s: #2a2e45;        /* Slightly lighter */
+  --bg1:  #333446;        /* Your base dark */
+  --bg2:  #3d4258;        /* Mid dark */
+  --bg3:  #4a4f6a;        /* Lighter dark */
+  --bg4:  #565c7c;        /* Lightest dark */
+  
+  /* Foreground colors */
+  --fg:   #EAEFEF;        /* Lightest text */
+  --fg1:  #d4dae0;        /* Slightly dimmed */
+  --fg2:  #B8CFCE;        /* Your pastel mint */
+  --fg3:  #9fb4b8;        /* Dimmed mint */
+  --fg4:  #7F8CAA;        /* Your muted blue */
+  
+  /* Accent colors - pastel dark theme */
+  --red:    #e98a9c;      /* Soft pink/red */
+  --green:  #9dd4c8;      /* Soft mint green */
+  --yellow: #f5d896;      /* Soft yellow */
+  --blue:   #89b4f0;      /* Soft blue */
+  --purple: #c5a3d4;      /* Soft lavender */
+  --aqua:   #7fc9c3;      /* Soft aqua/cyan */
+  --orange: #f4b083;      /* Soft peach */
+  --gray:   #7F8CAA;      /* Your muted blue as gray */
+  
+  /* Dimmed accent colors */
+  --red-dim:    #d47586;
+  --green-dim:  #87beb3;
+  --yellow-dim: #e0c481;
+  --blue-dim:   #6f9dd9;
+  --purple-dim: #b08ec0;
+  --aqua-dim:   #6ab3ae;
+  --orange-dim: #de9b6e;
+  --gray-dim:   #6a7591;
+}
+
+/* Normal Colors */
+.red {
+  color: var(--red);
+}
+
+.green {
+  color: var(--green);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.aqua {
+  color: var(--aqua);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+/* Dim Colors */
+
+.red-dim {
+  color: var(--red-dim);
+}
+
+.green-dim {
+  color: var(--green-dim);
+}
+
+.yellow-dim {
+  color: var(--yellow-dim);
+}
+
+.blue-dim {
+  color: var(--blue-dim);
+}
+
+.purple-dim {
+  color: var(--purple-dim);
+}
+
+.aqua-dim {
+  color: var(--aqua-dim);
+}
+
+.gray-dim {
+  color: var(--gray-dim);
+}
+
+.orange-dim {
+  color: var(--orange-dim);
+}
+
+/* Foreground Colors */
+
+.fg {
+  color: var(--fg);
+}
+
+.fg1 {
+  color: var(--fg1);
+}
+
+.fg2 {
+  color: var(--fg2);
+}
+
+.fg3 {
+  color: var(--fg3);
+}
+
+.fg4 {
+  color: var(--fg4);
+}
+
+/* Background Colors */
+
+.bg-hard {
+  color: var(--bg_h);
+}
+
+.bg {
+  color: var(--bg);
+}
+
+.bg-soft {
+  color: var(--bg_s);
+}
+
+.bg1 {
+  color: var(--bg1);
+}
+
+.bg2 {
+  color: var(--bg2);
+}
+
+.bg3 {
+  color: var(--bg3);
+}
+
+.bg4 {
+  color: var(--bg4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--fg);
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg,var(--bg4) 0%, var(--bg_h) 100%);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 60px;
+  background-color: var(--bg);
+  border: 1px solid var(--bg3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: var(--fg);
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  color: var(--fg1);
+  font-size: 1.8em;
+  font-weight: 600;
+  padding: 1.2rem 0;
+}
+
+.media-section {
+  padding-bottom: 40px;
+  border: 1px solid var(--bg2);
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: var(--fg1);
+  font-size: 1.05em;
+}
+
+a,
+p strong {
+  color: var(--blue);
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+audio {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
